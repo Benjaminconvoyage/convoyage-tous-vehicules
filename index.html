@@ -4,18 +4,27 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 
-<title>Convoyage automobile VL, PL & SPL en France | Convoyage Tous Véhicules</title>
-<meta name="description" content="Convoyeur automobile indépendant basé en Côte-d'Or. Convoyage de véhicules VL, utilitaires, PL et SPL pour particuliers et professionnels en Bourgogne-Franche-Comté et partout en France.">
-<meta name="robots" content="index,follow,max-image-preview:large">
+<title>Convoyeur automobile VL, PL & SPL en France | Convoyage Tous Véhicules</title>
+
+<meta name="description" content="Benjamin Reverdiau, convoyeur automobile indépendant en Côte-d'Or. Convoyage VL, utilitaires, PL et SPL pour particuliers et professionnels en Bourgogne-Franche-Comté et partout en France.">
+
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+
+<meta name="author" content="Benjamin Reverdiau">
 <meta name="theme-color" content="#0b1220">
-<link rel="canonical" href="https://benjaminconvoyage.github.io/convoyage-tous-vehicules/">
+
+<link rel="canonical" href="https://convoyage-tous-vehicules-v3.pages.dev/">
 
 <meta property="og:type" content="website">
 <meta property="og:locale" content="fr_FR">
 <meta property="og:site_name" content="Convoyage Tous Véhicules">
 <meta property="og:title" content="Convoyage automobile VL, PL & SPL en France">
-<meta property="og:description" content="Convoyage de véhicules particuliers, utilitaires, poids lourds et SPL. Côte-d'Or, Bourgogne-Franche-Comté et France entière selon les missions.">
-<meta property="og:url" content="https://benjaminconvoyage.github.io/convoyage-tous-vehicules/">
+<meta property="og:description" content="Convoyeur automobile indépendant basé en Côte-d'Or. Convoyage VL, utilitaires, PL et SPL pour particuliers et professionnels en France.">
+<meta property="og:url" content="https://convoyage-tous-vehicules-v3.pages.dev/">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Convoyage automobile VL, PL & SPL en France">
+<meta name="twitter:description" content="Convoyage automobile indépendant pour particuliers et professionnels. VL, utilitaires, PL et SPL en Côte-d'Or, Bourgogne-Franche-Comté et France entière.">
 
 <style>
 *{box-sizing:border-box}
@@ -100,18 +109,28 @@ footer{background:#080e18;color:#bac4d1;padding:32px 20px}
 {
   "@context":"https://schema.org",
   "@graph":[
+
     {
       "@type":["LocalBusiness","ProfessionalService"],
-      "@id":"https://benjaminconvoyage.github.io/convoyage-tous-vehicules/#business",
+      "@id":"https://convoyage-tous-vehicules-v3.pages.dev/#business",
       "name":"Convoyage Tous Véhicules",
       "description":"Service indépendant de convoyage automobile pour véhicules particuliers, utilitaires, poids lourds et super lourds.",
-      "url":"https://benjaminconvoyage.github.io/convoyage-tous-vehicules/",
+      "url":"https://convoyage-tous-vehicules-v3.pages.dev/",
       "telephone":"+33650971418",
       "email":"b.reverdiau@orange.fr",
       "areaServed":[
-        {"@type":"AdministrativeArea","name":"Côte-d'Or"},
-        {"@type":"AdministrativeArea","name":"Bourgogne-Franche-Comté"},
-        {"@type":"Country","name":"France"}
+        {
+          "@type":"AdministrativeArea",
+          "name":"Côte-d'Or"
+        },
+        {
+          "@type":"AdministrativeArea",
+          "name":"Bourgogne-Franche-Comté"
+        },
+        {
+          "@type":"Country",
+          "name":"France"
+        }
       ],
       "knowsAbout":[
         "Convoyage automobile",
@@ -128,62 +147,113 @@ footer{background:#080e18;color:#bac4d1;padding:32px 20px}
         "Convoyage SPL"
       ]
     },
+
     {
       "@type":"Person",
-      "@id":"https://benjaminconvoyage.github.io/convoyage-tous-vehicules/#benjamin",
+      "@id":"https://convoyage-tous-vehicules-v3.pages.dev/#benjamin",
       "name":"Benjamin Reverdiau",
       "jobTitle":"Convoyeur automobile indépendant",
-      "worksFor":{"@id":"https://benjaminconvoyage.github.io/convoyage-tous-vehicules/#business"},
+      "worksFor":{
+        "@id":"https://convoyage-tous-vehicules-v3.pages.dev/#business"
+      },
       "knowsAbout":[
         "Conduite professionnelle",
         "Convoyage automobile",
         "Véhicules légers",
+        "Véhicules utilitaires",
         "Poids lourds",
         "Super lourds"
       ]
     },
+
     {
       "@type":"Service",
-      "@id":"https://benjaminconvoyage.github.io/convoyage-tous-vehicules/#service",
+      "@id":"https://convoyage-tous-vehicules-v3.pages.dev/#service",
       "name":"Convoyage automobile",
       "serviceType":"Convoyage de véhicules",
-      "provider":{"@id":"https://benjaminconvoyage.github.io/convoyage-tous-vehicules/#business"},
-      "areaServed":{"@type":"Country","name":"France"}
+      "provider":{
+        "@id":"https://convoyage-tous-vehicules-v3.pages.dev/#business"
+      },
+      "areaServed":{
+        "@type":"Country",
+        "name":"France"
+      }
     },
+
     {
       "@type":"WebSite",
-      "@id":"https://benjaminconvoyage.github.io/convoyage-tous-vehicules/#website",
-      "url":"https://benjaminconvoyage.github.io/convoyage-tous-vehicules/",
+      "@id":"https://convoyage-tous-vehicules-v3.pages.dev/#website",
+      "url":"https://convoyage-tous-vehicules-v3.pages.dev/",
       "name":"Convoyage Tous Véhicules",
+      "inLanguage":"fr-FR",
+      "publisher":{
+        "@id":"https://convoyage-tous-vehicules-v3.pages.dev/#business"
+      }
+    },
+
+    {
+      "@type":"WebPage",
+      "@id":"https://convoyage-tous-vehicules-v3.pages.dev/#webpage",
+      "url":"https://convoyage-tous-vehicules-v3.pages.dev/",
+      "name":"Convoyage automobile VL, PL & SPL en France",
+      "description":"Convoyage automobile indépendant en Côte-d'Or, Bourgogne-Franche-Comté et partout en France.",
+      "isPartOf":{
+        "@id":"https://convoyage-tous-vehicules-v3.pages.dev/#website"
+      },
+      "about":{
+        "@id":"https://convoyage-tous-vehicules-v3.pages.dev/#business"
+      },
       "inLanguage":"fr-FR"
     },
+
     {
       "@type":"FAQPage",
+      "@id":"https://convoyage-tous-vehicules-v3.pages.dev/#faq",
       "mainEntity":[
+
         {
           "@type":"Question",
           "name":"Quels véhicules peuvent être convoyés ?",
-          "acceptedAnswer":{"@type":"Answer","text":"Le service concerne les véhicules particuliers, les utilitaires, les poids lourds et les véhicules SPL, sous réserve que les caractéristiques et conditions de la mission soient compatibles."}
+          "acceptedAnswer":{
+            "@type":"Answer",
+            "text":"Le service concerne les véhicules particuliers, les utilitaires, les poids lourds et les véhicules SPL, sous réserve que les caractéristiques et conditions de la mission soient compatibles."
+          }
         },
+
         {
           "@type":"Question",
           "name":"Où intervient Convoyage Tous Véhicules ?",
-          "acceptedAnswer":{"@type":"Answer","text":"Le service est basé en Côte-d'Or et peut intervenir en Bourgogne-Franche-Comté ainsi que partout en France selon le trajet, les disponibilités et les conditions de la mission."}
+          "acceptedAnswer":{
+            "@type":"Answer",
+            "text":"Le service est basé en Côte-d'Or et peut intervenir en Bourgogne-Franche-Comté ainsi que partout en France selon le trajet, les disponibilités et les conditions de la mission."
+          }
         },
+
         {
           "@type":"Question",
           "name":"Qui peut demander un convoyage automobile ?",
-          "acceptedAnswer":{"@type":"Answer","text":"Le service s'adresse aux particuliers et aux professionnels : garages, concessionnaires, entreprises, gestionnaires de flotte, transporteurs et autres professionnels de l'automobile."}
+          "acceptedAnswer":{
+            "@type":"Answer",
+            "text":"Le service s'adresse aux particuliers et aux professionnels : garages, concessionnaires, entreprises, gestionnaires de flotte, transporteurs et autres professionnels de l'automobile."
+          }
         },
+
         {
           "@type":"Question",
           "name":"Comment demander un devis de convoyage ?",
-          "acceptedAnswer":{"@type":"Answer","text":"Pour étudier une mission, il faut communiquer le type de véhicule, le lieu de départ, la destination et la date souhaitée. Les conditions de la mission sont ensuite vérifiées avant confirmation."}
+          "acceptedAnswer":{
+            "@type":"Answer",
+            "text":"Communiquez le type de véhicule, le lieu de départ, la destination et la date souhaitée. La mission est ensuite étudiée avant confirmation."
+          }
         },
+
         {
           "@type":"Question",
-          "name":"Pourquoi faire appel à un convoyeur automobile indépendant ?",
-          "acceptedAnswer":{"@type":"Answer","text":"Un convoyeur indépendant permet d'avoir un interlocuteur direct et une organisation adaptée à une mission ponctuelle ou régulière, selon le trajet et les contraintes convenues."}
+          "name":"Quels éléments faut-il préciser pour une demande ?",
+          "acceptedAnswer":{
+            "@type":"Answer",
+            "text":"Indiquez idéalement le type de véhicule, son état général, les lieux de prise en charge et de livraison, la date souhaitée et toute contrainte particulière connue."
+          }
         }
       ]
     }
@@ -196,7 +266,11 @@ footer{background:#080e18;color:#bac4d1;padding:32px 20px}
 
 <nav class="nav" aria-label="Navigation principale">
 <div class="navin">
-<div class="logo">CONVOYAGE <span>TOUS VÉHICULES</span></div>
+
+<div class="logo">
+CONVOYAGE <span>TOUS VÉHICULES</span>
+</div>
+
 <div class="links">
 <a href="#prestations">Prestations</a>
 <a href="#expertise">Expertise</a>
@@ -204,74 +278,138 @@ footer{background:#080e18;color:#bac4d1;padding:32px 20px}
 <a href="#zone">Zone d'intervention</a>
 <a href="#contact">Contact</a>
 </div>
+
 </div>
 </nav>
 
 <header class="hero">
 <div class="wrap">
+
 <div class="hero-grid">
+
 <div>
-<div class="hero-badge">● Convoyeur indépendant • VL • PL • SPL</div>
-<div class="eyebrow accent">Convoyage automobile professionnel</div>
-<h1>Votre véhicule.<br><span class="accent">Notre mission.</span></h1>
+
+<div class="hero-badge">
+● Convoyeur indépendant • VL • PL • SPL
+</div>
+
+<div class="eyebrow accent">
+Convoyage automobile professionnel
+</div>
+
+<h1>
+Votre véhicule.<br>
+<span class="accent">Notre mission.</span>
+</h1>
+
 <p>
 Convoyage professionnel de véhicules particuliers, utilitaires, poids lourds et super lourds,
 en Côte-d'Or, en Bourgogne-Franche-Comté et partout en France selon les missions.
 </p>
+
 <div class="buttons">
-<a class="btn primary" href="tel:+33650971418">📞 06 50 97 14 18</a>
-<a class="btn secondary" href="#contact">Demander un devis</a>
+<a class="btn primary" href="tel:+33650971418">
+📞 06 50 97 14 18
+</a>
+
+<a class="btn secondary" href="#contact">
+Demander un devis
+</a>
 </div>
+
 </div>
 
 <div class="hero-visual">
+
 <div class="hero-photo">
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/BMW_F30.jpg"
+<img
+src="https://upload.wikimedia.org/wikipedia/commons/5/5d/BMW_F30.jpg"
 alt="Voiture particulière utilisée comme illustration du convoyage automobile"
-width="800" height="600" loading="eager">
-<div class="label">Véhicule particulier<small>Convoyage VL partout en France</small></div>
+width="800"
+height="600"
+loading="eager">
+
+<div class="label">
+Véhicule particulier
+<small>Convoyage VL partout en France</small>
 </div>
+
+</div>
+
 <div class="hero-photo">
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Scania_R480_Highline.JPG"
+
+<img
+src="https://upload.wikimedia.org/wikipedia/commons/8/89/Scania_R480_Highline.JPG"
 alt="Poids lourd utilisé comme illustration du convoyage PL et SPL"
-width="800" height="600" loading="eager">
-<div class="label">Poids lourd<small>Convoyage PL et SPL selon mission</small></div>
+width="800"
+height="600"
+loading="eager">
+
+<div class="label">
+Poids lourd
+<small>Convoyage PL et SPL selon mission</small>
 </div>
+
+</div>
+
 </div>
 </div>
 </div>
 </header>
 
 <section class="fleet section" aria-label="Types de véhicules convoyés">
+
 <div class="wrap">
+
 <div class="fleet-grid">
+
 <article class="fleet-card">
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/BMW_F30.jpg"
+
+<img
+src="https://upload.wikimedia.org/wikipedia/commons/5/5d/BMW_F30.jpg"
 alt="Illustration d'un véhicule particulier à convoyer"
-width="800" height="600" loading="lazy">
+width="800"
+height="600"
+loading="lazy">
+
 <div class="fleet-caption">
 <strong>Véhicules particuliers</strong>
 <span>Convoyage de voitures et véhicules légers partout en France.</span>
 </div>
+
 </article>
 
 <article class="fleet-card">
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Scania_R480_Highline.JPG"
+
+<img
+src="https://upload.wikimedia.org/wikipedia/commons/8/89/Scania_R480_Highline.JPG"
 alt="Illustration d'un poids lourd à convoyer"
-width="800" height="600" loading="lazy">
+width="800"
+height="600"
+loading="lazy">
+
 <div class="fleet-caption">
 <strong>Poids lourds</strong>
 <span>Convoyage PL et SPL selon les caractéristiques et conditions de la mission.</span>
 </div>
+
 </article>
+
 </div>
 </div>
 </section>
 
 <section class="section" id="prestations">
+
 <div class="wrap">
-<div class="eyebrow">Pour qui ?</div>
-<h2>Des solutions de convoyage pour particuliers et professionnels</h2>
+
+<div class="eyebrow">
+Pour qui ?
+</div>
+
+<h2>
+Des solutions de convoyage pour particuliers et professionnels
+</h2>
 
 <p class="intro">
 Un service de convoyage automobile destiné aux particuliers, garages, concessionnaires,
@@ -279,57 +417,95 @@ entreprises, gestionnaires de flotte, transporteurs et professionnels de l'autom
 </p>
 
 <div class="grid">
+
 <div class="card">
 <h3>🏢 Entreprises</h3>
-<p>Convoyage pour garages, concessionnaires, entreprises, gestionnaires de flotte, transporteurs et professionnels de l'automobile.</p>
+<p>
+Convoyage pour garages, concessionnaires, entreprises, gestionnaires de flotte,
+transporteurs et professionnels de l'automobile.
+</p>
 </div>
 
 <div class="card">
 <h3>👤 Particuliers</h3>
-<p>Déplacement d'un véhicule entre deux adresses, après vérification des conditions et caractéristiques de la mission.</p>
+<p>
+Déplacement d'un véhicule entre deux adresses, après vérification des conditions
+et caractéristiques de la mission.
+</p>
 </div>
 
 <div class="card">
 <h3>🇫🇷 France entière</h3>
-<p>Départs et destinations en France selon le trajet, les disponibilités et les conditions convenues pour la mission.</p>
+<p>
+Départs et destinations en France selon le trajet, les disponibilités et les conditions
+convenues pour la mission.
+</p>
 </div>
+
 </div>
 </div>
 </section>
 
 <section class="section alt" id="services">
+
 <div class="wrap">
-<div class="eyebrow">Nos prestations</div>
-<h2>Convoyage VL, utilitaires, PL et SPL</h2>
-<p class="intro">Une prestation organisée avec sérieux, ponctualité et attention portée au véhicule confié.</p>
+
+<div class="eyebrow">
+Nos prestations
+</div>
+
+<h2>
+Convoyage VL, utilitaires, PL et SPL
+</h2>
+
+<p class="intro">
+Une prestation organisée avec sérieux, ponctualité et attention portée au véhicule confié.
+</p>
 
 <div class="grid">
+
 <div class="card">
 <div class="icon">🚗</div>
 <h3>Convoyage VL</h3>
-<p>Convoyage de voitures particulières entre concession, garage, client, dépôt ou autre point de prise en charge.</p>
+<p>
+Convoyage de voitures particulières entre concession, garage, client,
+dépôt ou autre point de prise en charge.
+</p>
 </div>
 
 <div class="card">
 <div class="icon">🚐</div>
 <h3>Convoyage utilitaire</h3>
-<p>Déplacement de véhicules utilitaires et professionnels pour entreprises et gestionnaires de flotte.</p>
+<p>
+Déplacement de véhicules utilitaires et professionnels pour entreprises
+et gestionnaires de flotte.
+</p>
 </div>
 
 <div class="card">
 <div class="icon">🚛</div>
 <h3>Convoyage PL / SPL</h3>
-<p>Convoyage de poids lourds et super lourds selon les caractéristiques, les exigences et les conditions de la mission.</p>
+<p>
+Convoyage de poids lourds et super lourds selon les caractéristiques,
+les exigences et les conditions de la mission.
+</p>
 </div>
+
 </div>
 </div>
 </section>
 
 <section class="section alt">
+
 <div class="wrap">
 
-<div class="eyebrow">Votre convoyeur</div>
-<h2>Benjamin Reverdiau — Convoyeur automobile indépendant</h2>
+<div class="eyebrow">
+Votre convoyeur
+</div>
+
+<h2>
+Benjamin Reverdiau — Convoyeur automobile indépendant
+</h2>
 
 <p class="intro">
 Je suis Benjamin Reverdiau, convoyeur automobile indépendant, basé en Côte-d'Or.
@@ -349,20 +525,31 @@ avec un interlocuteur direct et professionnel du début à la fin.
 </p>
 
 <div class="proof">
-<strong>Un interlocuteur direct pour votre mission</strong>
-<p class="small">
-Chaque demande est étudiée selon le véhicule, le trajet, les disponibilités et les conditions de réalisation.
-</p>
-</div>
 
+<strong>
+Un interlocuteur direct pour votre mission
+</strong>
+
+<p class="small">
+Chaque demande est étudiée selon le véhicule, le trajet, les disponibilités
+et les conditions de réalisation.
+</p>
+
+</div>
 </div>
 </section>
 
 <section class="section" id="expertise">
+
 <div class="wrap">
 
-<div class="eyebrow">Expérience & expertise</div>
-<h2>Un convoyeur professionnel, avec une expérience de la conduite</h2>
+<div class="eyebrow">
+Expérience & expertise
+</div>
+
+<h2>
+Un convoyeur professionnel, avec une expérience de la conduite
+</h2>
 
 <p class="intro">
 Convoyage Tous Véhicules est une micro-entreprise indépendante de convoyage dirigée par Benjamin.
@@ -374,63 +561,92 @@ aux missions de transport et de convoyage.
 
 <div class="card">
 <h3>🚚 Conduite professionnelle</h3>
-<p>Expérience professionnelle de la conduite et connaissance des contraintes liées au déplacement de véhicules.</p>
+<p>
+Expérience professionnelle de la conduite et connaissance des contraintes
+liées au déplacement de véhicules.
+</p>
 </div>
 
 <div class="card">
 <h3>🪪 Permis adaptés</h3>
-<p>Permis B, C et CE, permettant d'étudier des missions sur véhicules légers, poids lourds et ensembles routiers, selon les conditions applicables.</p>
+<p>
+Permis B, C et CE, permettant d'étudier des missions sur véhicules légers,
+poids lourds et ensembles routiers, selon les conditions applicables.
+</p>
 </div>
 
 <div class="card">
 <h3>📋 Qualifications</h3>
-<p>FIMO, FCO et carte conducteur. Les missions sont acceptées après vérification de leur compatibilité avec les qualifications et conditions requises.</p>
+<p>
+FIMO, FCO et carte conducteur. Les missions sont acceptées après vérification
+de leur compatibilité avec les qualifications et conditions requises.
+</p>
 </div>
 
 </div>
 
 <div class="proof">
-<strong>Une approche professionnelle et transparente</strong>
+
+<strong>
+Une approche professionnelle et transparente
+</strong>
+
 <p class="small">
-Chaque mission est étudiée avant confirmation : véhicule, départ, destination, date, contraintes particulières
-et conditions de réalisation. Les informations présentées sur ce site ne remplacent pas les conditions contractuelles
+Chaque mission est étudiée avant confirmation : véhicule, départ, destination,
+date, contraintes particulières et conditions de réalisation.
+Les informations présentées sur ce site ne remplacent pas les conditions contractuelles
 de chaque mission.
 </p>
+
 </div>
 
 </div>
 </section>
 
 <section class="section" id="fonctionnement">
+
 <div class="wrap">
 
-<div class="eyebrow">Simple et efficace</div>
-<h2>Comment fonctionne un convoyage automobile ?</h2>
+<div class="eyebrow">
+Simple et efficace
+</div>
+
+<h2>
+Comment fonctionne un convoyage automobile ?
+</h2>
 
 <div class="steps">
 
 <div class="step">
 <span class="num">1</span>
 <h3>Votre demande</h3>
-<p>Type de véhicule, lieu de départ, destination et date souhaitée.</p>
+<p>
+Type de véhicule, lieu de départ, destination et date souhaitée.
+</p>
 </div>
 
 <div class="step">
 <span class="num">2</span>
 <h3>Échange</h3>
-<p>Vérification des informations, des contraintes et des conditions de la mission.</p>
+<p>
+Vérification des informations, des contraintes et des conditions de la mission.
+</p>
 </div>
 
 <div class="step">
 <span class="num">3</span>
 <h3>Convoyage</h3>
-<p>Prise en charge et conduite du véhicule jusqu'au point de destination convenu.</p>
+<p>
+Prise en charge et conduite du véhicule jusqu'au point de destination convenu.
+</p>
 </div>
 
 <div class="step">
 <span class="num">4</span>
 <h3>Livraison</h3>
-<p>Remise du véhicule au point d'arrivée selon les modalités prévues pour la mission.</p>
+<p>
+Remise du véhicule au point d'arrivée selon les modalités prévues pour la mission.
+</p>
 </div>
 
 </div>
@@ -438,10 +654,16 @@ de chaque mission.
 </section>
 
 <section class="section alt" id="zone">
+
 <div class="wrap">
 
-<div class="eyebrow">Zone d'intervention</div>
-<h2>Convoyage en Côte-d'Or, en Bourgogne-Franche-Comté et partout en France</h2>
+<div class="eyebrow">
+Zone d'intervention
+</div>
+
+<h2>
+Convoyage en Côte-d'Or, en Bourgogne-Franche-Comté et partout en France
+</h2>
 
 <p class="intro">
 Basé en Côte-d'Or, Convoyage Tous Véhicules peut répondre à des missions locales,
@@ -449,37 +671,54 @@ régionales ou nationales selon le trajet, les disponibilités et les conditions
 </p>
 
 <div class="location-box">
-<strong>📍 Côte-d'Or • Bourgogne-Franche-Comté • France entière</strong>
+
+<strong>
+📍 Côte-d'Or • Bourgogne-Franche-Comté • France entière
+</strong>
+
 <p>
 Convoyage automobile pour particuliers et professionnels, avec départ ou destination
 à définir selon la mission. Une demande peut être étudiée même si le trajet dépasse la région.
 </p>
+
 </div>
 
 </div>
 </section>
 
 <section class="section">
+
 <div class="wrap">
 
-<div class="eyebrow">Pourquoi faire appel à un convoyeur indépendant ?</div>
-<h2>Une solution souple pour vos besoins de mobilité</h2>
+<div class="eyebrow">
+Pourquoi faire appel à un convoyeur indépendant ?
+</div>
+
+<h2>
+Une solution souple pour vos besoins de mobilité
+</h2>
 
 <div class="grid">
 
 <div class="card">
 <h3>📅 Organisation</h3>
-<p>Une organisation adaptée aux contraintes du trajet et aux délais convenus pour chaque mission.</p>
+<p>
+Une organisation adaptée aux contraintes du trajet et aux délais convenus pour chaque mission.
+</p>
 </div>
 
 <div class="card">
 <h3>🛣️ Mobilité</h3>
-<p>Intervention sur différents types de véhicules et de trajets, sous réserve des caractéristiques de la mission.</p>
+<p>
+Intervention sur différents types de véhicules et de trajets, sous réserve des caractéristiques de la mission.
+</p>
 </div>
 
 <div class="card">
 <h3>🤝 Interlocuteur direct</h3>
-<p>Un interlocuteur indépendant pour les besoins ponctuels ou réguliers de convoyage.</p>
+<p>
+Un interlocuteur indépendant pour les besoins ponctuels ou réguliers de convoyage.
+</p>
 </div>
 
 </div>
@@ -487,36 +726,57 @@ Convoyage automobile pour particuliers et professionnels, avec départ ou destin
 </section>
 
 <section class="section alt">
+
 <div class="wrap">
 
-<div class="eyebrow">Questions fréquentes</div>
-<h2>Tout savoir sur le convoyage automobile</h2>
+<div class="eyebrow">
+Questions fréquentes
+</div>
+
+<h2>
+Tout savoir sur le convoyage automobile
+</h2>
 
 <div class="faq">
 
 <details>
 <summary>Quels véhicules peuvent être convoyés ?</summary>
-<p>Le service concerne les véhicules particuliers, les utilitaires, les poids lourds et les véhicules SPL, sous réserve que les caractéristiques et conditions de la mission soient compatibles.</p>
+<p>
+Le service concerne les véhicules particuliers, les utilitaires, les poids lourds
+et les véhicules SPL, sous réserve que les caractéristiques et conditions de la mission soient compatibles.
+</p>
 </details>
 
 <details>
 <summary>Où intervient Convoyage Tous Véhicules ?</summary>
-<p>Le service est basé en Côte-d'Or et peut intervenir en Bourgogne-Franche-Comté ainsi que partout en France selon le trajet, les disponibilités et les conditions de la mission.</p>
+<p>
+Le service est basé en Côte-d'Or et peut intervenir en Bourgogne-Franche-Comté
+ainsi que partout en France selon le trajet, les disponibilités et les conditions de la mission.
+</p>
 </details>
 
 <details>
 <summary>Qui peut demander un convoyage automobile ?</summary>
-<p>Le service s'adresse aux particuliers et aux professionnels : garages, concessionnaires, entreprises, gestionnaires de flotte, transporteurs et autres professionnels de l'automobile.</p>
+<p>
+Le service s'adresse aux particuliers et aux professionnels : garages, concessionnaires,
+entreprises, gestionnaires de flotte, transporteurs et autres professionnels de l'automobile.
+</p>
 </details>
 
 <details>
 <summary>Comment demander un devis de convoyage ?</summary>
-<p>Communiquez le type de véhicule, le lieu de départ, la destination et la date souhaitée. La mission est ensuite étudiée avant confirmation.</p>
+<p>
+Communiquez le type de véhicule, le lieu de départ, la destination et la date souhaitée.
+La mission est ensuite étudiée avant confirmation.
+</p>
 </details>
 
 <details>
 <summary>Quels éléments faut-il préciser pour une demande ?</summary>
-<p>Indiquez idéalement le type de véhicule, son état général, les lieux de prise en charge et de livraison, la date souhaitée et toute contrainte particulière connue.</p>
+<p>
+Indiquez idéalement le type de véhicule, son état général, les lieux de prise en charge
+et de livraison, la date souhaitée et toute contrainte particulière connue.
+</p>
 </details>
 
 </div>
@@ -524,65 +784,111 @@ Convoyage automobile pour particuliers et professionnels, avec départ ou destin
 </section>
 
 <section class="band">
+
 <div class="bandin">
+
 <div>
-<h2>Un véhicule à faire convoyer ?</h2>
-<div>Parlez-moi de votre mission.</div>
+<h2>
+Un véhicule à faire convoyer ?
+</h2>
+
+<div>
+Parlez-moi de votre mission.
 </div>
-<a class="darkbtn" href="tel:+33650971418">Appeler maintenant</a>
+</div>
+
+<a class="darkbtn" href="tel:+33650971418">
+Appeler maintenant
+</a>
+
 </div>
 </section>
 
 <section class="section" id="contact">
+
 <div class="wrap">
 
-<div class="eyebrow">Contact</div>
-<h2>Demandez votre devis de convoyage</h2>
+<div class="eyebrow">
+Contact
+</div>
+
+<h2>
+Demandez votre devis de convoyage
+</h2>
 
 <div class="contact">
 
 <div>
+
 <p class="intro">
-Indiquez simplement le type de véhicule, le lieu de départ, la destination et la date souhaitée.
+Indiquez simplement le type de véhicule, le lieu de départ,
+la destination et la date souhaitée.
 </p>
 
 <p>
-📞 <a href="tel:+33650971418"><strong>06 50 97 14 18</strong></a><br>
-<span class="small">Appel direct</span>
+📞
+<a href="tel:+33650971418">
+<strong>06 50 97 14 18</strong>
+</a>
+<br>
+<span class="small">
+Appel direct
+</span>
 </p>
 
 <p>
-✉️ <a href="mailto:b.reverdiau@orange.fr"><strong>b.reverdiau@orange.fr</strong></a><br>
-<span class="small">Réponse et étude de votre demande</span>
+✉️
+<a href="mailto:b.reverdiau@orange.fr">
+<strong>b.reverdiau@orange.fr</strong>
+</a>
+<br>
+<span class="small">
+Réponse et étude de votre demande
+</span>
 </p>
+
 </div>
 
 <div class="contactbox">
-<strong>Demande rapide</strong>
+
+<strong>
+Demande rapide
+</strong>
+
 <p class="small">
 Votre messagerie s'ouvre avec l'objet et les informations principales à compléter.
 </p>
 
-<a class="btn primary"
+<a
+class="btn primary"
 href="mailto:b.reverdiau@orange.fr?subject=Demande%20de%20convoyage&body=Bonjour%2C%0A%0AJe%20souhaite%20obtenir%20un%20devis%20de%20convoyage.%0A%0AType%20de%20véhicule%20%3A%0ALieu%20de%20départ%20%3A%0ADestination%20%3A%0ADate%20souhaitée%20%3A%0AContraintes%20particulières%20%3A%0A%0AMerci.">
 ✉️ Envoyer une demande
 </a>
 
 </div>
+
 </div>
 </div>
 </section>
 
 <footer>
+
 <div class="foot">
 
 <div>
-<strong>CONVOYAGE TOUS VÉHICULES</strong><br>
+
+<strong>
+CONVOYAGE TOUS VÉHICULES
+</strong>
+
+<br>
+
 Convoyage VL • Utilitaires • PL • SPL
 
 <div class="photo-credit">
 Photos : Wikimedia Commons — BMW F30 (Alekc2m, CC BY-SA 3.0) • Scania R480 Highline (Rickard Ångman, CC BY 3.0).
 </div>
+
 </div>
 
 <div>
