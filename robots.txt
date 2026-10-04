@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://convoyage-tous-vehicules-v3.pages.dev/sitemap.xml
